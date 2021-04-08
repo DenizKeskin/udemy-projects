@@ -4,6 +4,7 @@ import { InventoryModel } from "../models/inventory.model";
 import { TicketTypeModel } from "../models/ticket-type.model";
 import { UserModel } from "../models/user.model";
 
+
 export class TicketTCreateDto{
     id:string;
     name:string;
