@@ -2,11 +2,11 @@ import { GroupModel } from "../models/group.model";
 import { RoleModel } from "../models/role.model";
 
 export class UserCreateDto {
+  birthDay: Date;
+  email: string;
   name: string;
   surname: string;
   password: string;
-  email: string;
-  birthDate: Date;
 }
 export class UserUpdateDto{
     name: string;
