@@ -4,8 +4,6 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import environment from './tools/environment/environment';
 import { UserModule } from './tools/user/user.module';
-import { UserService } from './tools/user/user.service';
-
 
 @Module({
   imports: [UserModule,MongooseModule.forRoot(environment.mongoUrl)], //Mongoose paketine tüm proje içerisinden erişebilir durumdayız.
